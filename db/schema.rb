@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20140513181244) do
     t.datetime "updated_at"
   end
 
-  create_table "totos", force: true do |t|
+  create_table "todos", force: true do |t|
     t.string   "title"
     t.boolean  "completed"
     t.datetime "created_at"
